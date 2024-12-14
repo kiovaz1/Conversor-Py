@@ -3,7 +3,7 @@ import requests
 
 def converter_moeda(valor, moeda_origem, moeda_destino):
     """
-    Converte um valor de uma moeda para outra usando a API ExchangeRate-API.
+    converte um valor de uma moeda para outra usando a api ExchangeRate-API
 
     Args:
         valor (float): O valor a ser convertido.
@@ -11,7 +11,7 @@ def converter_moeda(valor, moeda_origem, moeda_destino):
         moeda_destino (str): A moeda de destino (ex: 'BRL').
 
     Returns:
-        float: O valor convertido, ou uma mensagem de erro caso algo falhe.
+        float: O valor convertido, ou uma mensagem de erro caso algo falhe
     """
     url = f"https://v6.exchangerate-api.com/v6/SUA_CHAVE_API/latest/{moeda_origem}"
 
