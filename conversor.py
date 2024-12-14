@@ -29,7 +29,7 @@ def converter_moeda(valor, moeda_origem, moeda_destino):
     except requests.exceptions.RequestException as e:
         return f"Erro ao acessar a API: {e}"
 
-# Interface do usuário
+# Interface
 if __name__ == "__main__":
     print("=== Conversor de Moeda ===")
     
